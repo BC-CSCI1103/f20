@@ -27,7 +27,7 @@ Robert Muller — Boston College
 
 <details open> <summary>Gavin Bloom, Head Teaching Assistant</summary>
 
-+ **Section 101001**: Tuesdays, 5PM, [Zoom]( https://bccte.zoom.us/j/9694152673).
++ **Section 101001**: Tuesdays, 5PM, [Zoom](https://bccte.zoom.us/j/9694152673).
 + **Office Hours** Thursdays 1PM -- 4:00PM.
 
 </details>
