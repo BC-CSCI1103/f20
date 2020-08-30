@@ -16,9 +16,10 @@ Robert Muller — Boston College
 
 <details>
   <summary>Administration</summary>
+**Meets:** Mondays, Wednesdays and Fridays at 11AM [On Line](https://bccte.zoom.us/j/3306891980).
 
-**Meets:** Mondays, Wednesdays and Fridays at 11AM on-line.
 **Instructor:** [Robert Muller](http://www.cs.bc.edu/~muller/)
+
 **Office Hours:** Tuesdays 10AM - 12PM, Wednesdays 1PM - 3PM and by appointment Tuesday through Friday as available.
 
 **Teaching Assistants:**
