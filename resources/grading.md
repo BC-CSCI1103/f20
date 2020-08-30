@@ -26,7 +26,7 @@ Grades will be recorded on the Canvas website.
   > cd
   > cd csci1103/ps8-smith
   > git add .
-  > git comment "Martha Smith: Final"
+  > git commit "Martha Smith: Final"
   > git push
   ```
 
