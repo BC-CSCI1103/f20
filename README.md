@@ -18,28 +18,28 @@ Robert Muller — Boston College
   <summary>Administration</summary>
 **Meets:** Mondays, Wednesdays and Fridays at 11AM on-line.
 **Instructor:** [Robert Muller](http://www.cs.bc.edu/~muller/)
-
-**Office Hours:** ??.
+**Office Hours:** Tuesdays 10AM - 12PM, Wednesdays 1PM - 3PM and by appointment Tuesday through Friday as available.
 
 **Teaching Assistants:**
 
 <details open> <summary>Gavin Bloom, Head Teaching Assistant</summary>
 
-+ **Section 101001**: Tuesdays, 5PM.
++ **Section 101001**: Tuesdays, 5PM, [Zoom]( https://bccte.zoom.us/j/9694152673).
 + **Office Hours** Thursdays 1PM -- 4:00PM.
 
 </details>
 
-<details open> <summary>Emma Sabadini</summary>
+<details open> <summary>Emma Sabbadini</summary>
 
-+ **Section 101002**: Tuesdays 6PM.
+
++ **Section 101002**: Tuesdays 6PM [Zoom]().
 + **Office Hours** Tuesdays 7PM -- 8PM, Fridays 12PM -- 2PM.
 
 </details>
 
 <details open><summary>Callie Sardina</summary>
 
-+ **Section 101003**: Wednesdays 5PM.
++ **Section 101003**: Wednesdays 5PM [Zoom]().
 + **Office Hours** Wednesdays 6PM -- 8PM, Sundays 4PM -- 5PM **.
 
 </details>
@@ -83,7 +83,7 @@ Robert Muller — Boston College
 | Week | Mtng |     | Topic  |
 | :--: | :--: | :-- | :--------------------------------------- |
 |  [1](https://github.com/BC-CSCI1103/Week01)  |  1   | M 08/31/20 | Introduction and Overview                |
-|      |  2   | W 09/02/20 | Development logistics -- Workflow: Unix, OCaml, Dune, Atom, git & GitHub |
+|      |  2   | W 09/02/20 | Development logistics -- Workflow: Unix, OCaml, Dune, Atom and VSCode, git & GitHub |
 |      |  3   | F 09/04/20 | Base types; literals & expressions; simplification & work; values |
 |  [2](https://github.com/BC-CSCI1103/Week02)  |      | M 09/07/20 | **Labor Day, No Meeting** |
 |      |  4   | W 09/09/20 | Symbolic Names: `let` and `let-in`; functions, libraries, function definitions and calls; replacement; explicit types or implicit types with type inference |
