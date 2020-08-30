@@ -21,7 +21,7 @@ Robert Muller — Boston College
 
 + **Instructor:** [Robert Muller](http://www.cs.bc.edu/~muller/)
 
-+ **Office Hours:** Tuesdays 10AM - 12PM, Wednesdays 1PM - 3PM and by appointment Tuesday through Friday as available.
++ [Office Hours](https://bccte.zoom.us/j/3306891980): Tuesdays 10AM - 12PM, Wednesdays 1PM - 3PM and by appointment Tuesday through Friday as available.
 
 **Teaching Assistants:**
 
