@@ -31,6 +31,7 @@ Robert Muller — Boston College
 </details>
 
 <details open> <summary>Emma Sabbadini</summary>
+
 + **Section 101002**: Tuesdays 6PM [Zoom](https://bccte.zoom.us/j/6103994178).
 + **Office Hours** Tuesdays 7PM -- 8PM, Fridays 12PM -- 2PM.
 
