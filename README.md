@@ -38,7 +38,7 @@ Robert Muller — Boston College
 
 <details open><summary>Callie Sardina</summary>
 
-+ **Section 101003**: Wednesdays 5PM [Zoom]().
++ **Section 101003**: Wednesdays 5PM [Zoom](https://bccte.zoom.us/j/2175950858).
 + **Office Hours** Wednesdays 6PM -- 8PM, Sundays 4PM -- 5PM **.
 
 </details>
