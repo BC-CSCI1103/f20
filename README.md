@@ -132,17 +132,6 @@ Robert Muller — Boston College
 
 ---
 
- 
-
-> FIT THESE IN??
->
-> + an ancient approximation algorithm; Fibonacci numbers;
->
-> + Working with numbers, primality, 
->
->   
->
-
 # Labs
 
 Lab meetings are an especially important part of CSCI 1103. Students will work on topics related to the problem set and to the lecture material. Attendance and active participation in labs is an important component of the class participation component of the course grade.
