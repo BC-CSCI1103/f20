@@ -84,46 +84,46 @@ Robert Muller — Boston College
 |  [1](https://github.com/BC-CSCI1103/Week01)  |  1   | M 08/31/20 | Introduction and Overview                |
 |      |  2   | W 09/02/20 | Development logistics -- Workflow: Unix, OCaml, Dune, Atom and VSCode, git & GitHub |
 |      |  3   | F 09/04/20 | Base types; literals & expressions; simplification & work; values |
-|  [2](https://github.com/BC-CSCI1103/Week02)  |      | M 09/07/20 | **Labor Day, No Meeting** |
+|  2  |      | M 09/07/20 | **Labor Day, No Meeting** |
 |      |  4   | W 09/09/20 | Symbolic Names: `let` and `let-in`; functions, libraries, function definitions and calls; replacement; explicit types or implicit types with type inference |
 |      |  5   | F 09/11/20 | More on function definitions; tuples; polymorphism |
-| [3](https://github.com/BC-CSCI1103/Week03) |  6   | M 09/14/20 | Branching & sum types; match expressions; the `bool` type |
+| 3 |  6   | M 09/14/20 | Branching & sum types; match expressions; the `bool` type |
 |      |  7   | W 09/16/20 | Lists; repetition & recursive list processing, `List.mem` & `List.append` |
 |      |  8   | F 09/18/20 | learning from `List.rev`; computational shapes; local functions |
-| [4](https://github.com/BC-CSCI1103/Week04) |  9   | M 09/21/20 | More on working with lists |
+| 4 |  9   | M 09/21/20 | More on working with lists |
 |      |  10  | W 09/23/20 | Recursion & Mathematical Induction; `addToAll`, `sublists` |
 |      |  11  | F 09/25/20 | Record types, the `'a option` type |
-| [5](https://github.com/BC-CSCI1103/Week05) |  12  | M 09/28/20 | The Animation library; Working with images; repetitive images, stripes |
+| 5 |  12  | M 09/28/20 | The Animation library; Working with images; repetitive images, stripes |
 |      |  13  | W 09/30/20 | Animation: Elm's model-view-update architecture |
 |      |  14  | F 10/02/20 | The Best Candidate Algorithm |
-| [6](https://github.com/BC-CSCI1103/Week06) |  15  | M 10/05/20 | Numerical algorithms, primality, the Sieve of Eratosthenes, Fibonacci numbers |
+| 6 |  15  | M 10/05/20 | Numerical algorithms, primality, the Sieve of Eratosthenes, Fibonacci numbers |
 |      |  16  | W 10/07/20 | Numerical algorithms: Approximating the square root |
 |      |  17  | F 10/09/20 | Functions are values: `List.map`, `List.for_all` and `List.exists`. |
-| [7](https://github.com/BC-CSCI1103/Week07) |  18  | M 10/12/20 | **Columbus Day, this class meets on Tuesday!** More on function values: function slope, Riemann sums |
+| 7 |  18  | M 10/12/20 | **Columbus Day, this class meets on Tuesday!** More on function values: function slope, Riemann sums |
 |      |  19  | W 10/14/20 | Modules: implementing a dictionary |
 |      |  20  | F 10/16/20 | binary search trees, performance measurement |
-| [8](https://github.com/BC-CSCI1103/Week08) |      | M 10/19/20 | Sorting algorithms |
+| 8 |      | M 10/19/20 | Sorting algorithms |
 |      |  21  | W 10/21/20 | Sorting algorithms |
 |      |  22  | F 10/23/20 | Symbols and Digital Representations; Positional Numeral Systems |
-| [9](https://github.com/BC-CSCI1103/Week09) |  23  | M 10/26/20 | Binary & Hexadecimal; logic gates; a ripple-carry adder; |
+| 9 |  23  | M 10/26/20 | Binary & Hexadecimal; logic gates; a ripple-carry adder; |
 |      |  24  | W 10/28/20 | Machines & Storage Architecture, Bits, Bytes & Words |
 |      |  25  | F 10/30/20 | SVM — A Simple Virtual Machine |
-|  [10](https://github.com/BC-CSCI1103/Week10)  |  26  | M 11/02/20 | Assembly coding |
+|  10  |  26  | M 11/02/20 | Assembly coding |
 |      |  27  | W 11/04/20 | Assembly coding: linked vs sequential allocation |
 |      |  28  | F 11/06/20 | Storage Architecture |
 |  11  |  29  | M 11/09/20 | Storage diagrams & the storage model of evaluation |
 |      |  30  | W 11/11/20 | Storage diagrams |
 |      |  31  | F 11/13/20 | Imperative programming: sequence forms; mutable references; block-storage; `fresh` |
-|  [12](https://github.com/BC-CSCI1103/Week12)  |  32  | M 11/16/20 | Working with Audio       |
+|  12  |  32  | M 11/16/20 | Working with Audio       |
 |                                            |      | W 11/18/20 | Working with Audio |
 |      |  34  | F 11/20/20 | Working with pictures |
-|  [13](https://github.com/BC-CSCI1103/Week13)  |  35  | M 11/23/20 | Working with pictures |
+|  13  |  35  | M 11/23/20 | Working with pictures |
 |      |  36  | W 11/25/20 | **Thanksgiving: No Meeting** |
 |      |  37  | F 11/27/20 | **Thanksgiving: No Meeting** |
 |  14  |  38  | M 11/30/20 | Search problems: mazes, eight queens, the knights tour |
 |      |      | W 12/02/20 | Search problems: mazes, eight queens, the knights tour |
 |      |      | F 12/04/20 | Working with strings & text files |
-|  [15](https://github.com/BC-CSCI1103/Week15)  |  39  | M 12/07/20 | Working with strings & text files, applications in bioinformatics |
+|  15  |  39  | M 12/07/20 | Working with strings & text files, applications in bioinformatics |
 |      |  40  | W 12/09/20 | Last Meeting, review and wrap-up |
 |      |  41  | F 12/11/20 | **Study Period** |
 
