@@ -182,7 +182,16 @@ It's fine if you have OCaml 4.11 instead. You can type in expressions as you lik
   ```
   
 
-If you don't see a simple animation, something is wrong, contact a course staffer. If you do, try hitting the touchpad a few times to start and stop.
+If you see a simple animation, try hitting the touchpad a few times to start and stop.
+
+> If you don't see the animation, something is wrong. Try copying and pasting the following two lines into the command shell:
+>
+> ```bash
+> echo "eval $(opam env)" >> ~/.bash_profile
+> source ~/.bash_profile
+> ```
+>
+> Now try the `dune exec` command again. If it still doesn't work, contact a course staffer. 
 
 ### Setting up the Atom Editor
 
