@@ -145,16 +145,16 @@ Lab meetings are an especially important part of CSCI 1103. Students will work o
 | Mtng | Topic                                                        |
 | :--: | :----------------------------------------------------------- |
 |  1   | Working with Unix and the Unix Command Line                  |
-|  2   | Working with git and Github                                  |
+|  2   | More Unix, Working with git and Github                       |
 |  3   | The Animate Graphics Library                                 |
 |  4   | Working with Lists                                           |
 |  5   | Working with Trees                                           |
 |  6   | Model-View-Update                                            |
 |  7   | Numeral Systems & Storage                                    |
 |  8   | The Simple Virtual Machine                                   |
-|  9   | Coding in Imperative Style; mutation, block-storage, for-loops & while-loops |
-|  10  | Working with Strings, Text & Files                           |
-|  11  | Catch Up                                                     |
+|  9   | Working with Audio                                           |
+|  10  | Working with Pictures                                        |
+|  11  | Working with Strings, Text & Files                           |
 
 
 
