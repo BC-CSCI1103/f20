@@ -6,7 +6,7 @@ Robert Muller — Boston College
 
 ---
 
-[About](resources/about.md) — [Textbooks](resources/textbooks.md) — [Grading](resources/grading.md) — [Canvas](https://bostoncollege.instructure.com/courses/1614229) — [Piazza](https://piazza.com/class/ke7uxpkwqw643p) — [Manual](http://caml.inria.fr/pub/docs/manual-ocaml/index.html) — [OCaml.org](https://ocaml.org/)  — [Cornell CS3110](https://www.cs.cornell.edu/courses/cs3110/2020sp/)
+[About](resources/about.md) — [Textbooks](resources/textbooks.md) — [Grading](resources/grading.md) — [Canvas](https://bostoncollege.instructure.com/courses/1614229) — [Piazza](https://piazza.com/class/ke7uxpkwqw643p) — [Manual](http://caml.inria.fr/pub/docs/manual-ocaml/index.html) — [OCaml.org](https://ocaml.org/)  — [Cornell CS3110](https://www.cs.cornell.edu/courses/cs3110/2020sp/) — [Labs](./resources/labs.md)
 
 [Stdlib](http://caml.inria.fr/pub/docs/manual-ocaml/stdlib.html) — [Lib](resources/libraries/lib.mli) — [Animate](resources/libraries/animate.mli) — [Image](resources/libraries/image.mli) — [Color](resources/libraries/color.mli) — [Animate Notes](./resources/libraries/animate/README.md) — [Zoom](https://bccte.zoom.us/j/3306891980)
 
@@ -70,10 +70,10 @@ Robert Muller — Boston College
 8. Digital Representations
 9. Machines
 10. Storage
-11. Coding in Imperative Style
-12. Strings, Text & Files
-13. Applications
-14. Designing & Implementing new Types
+11. Applications in Imperative Style: Digital Audio
+12. Applications in Imperative Style: Pictures
+13. Applications of Strings, Text & Files
+14. Developing new Types, Review & Wrap-up
 
 </details>
 
@@ -129,32 +129,4 @@ Robert Muller — Boston College
 |      |  41  | F 12/11/20 | **Study Period** |
 
 </details>
-
----
-
-# Labs
-
-Lab meetings are an especially important part of CSCI 1103. Students will work on topics related to the problem set and to the lecture material. Attendance and active participation in labs is an important component of the class participation component of the course grade.
-
-**NB: There will be no lab meeting in week 1.**
-
----
-
-## Lab Schedule
-
-| Mtng | Topic                                                        |
-| :--: | :----------------------------------------------------------- |
-|  1   | Working with Unix and the Unix Command Line                  |
-|  2   | More Unix, Working with git and Github                       |
-|  3   | The Animate Graphics Library                                 |
-|  4   | Working with Lists                                           |
-|  5   | Working with Trees                                           |
-|  6   | Model-View-Update                                            |
-|  7   | Numeral Systems & Storage                                    |
-|  8   | The Simple Virtual Machine                                   |
-|  9   | Working with Audio                                           |
-|  10  | Working with Pictures                                        |
-|  11  | Working with Strings, Text & Files                           |
-
-
 
