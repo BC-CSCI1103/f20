@@ -27,7 +27,7 @@ Lab meetings are an especially important part of CSCI 1103. Students will work o
 
 **Callie Sardina**
 
-+ **Section 101003**: Wednesdays 5PM [Zoom](https://bccte.zoom.us/j/2175950858).
++ **Section 101003**: Wednesdays 5PM [Zoom](https://bccte.zoom.us/j/2175950858?pwd=QkpyTkVkR0IremQ5eWFGeStIOHdXUT09).
 + **Office Hours** Wednesdays 6PM -- 8PM, Sundays 4PM -- 5PM.
 
 ---
