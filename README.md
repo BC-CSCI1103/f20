@@ -87,7 +87,7 @@ Robert Muller — Boston College
 |  [1](https://github.com/BC-CSCI1103/Week01)  |  1   | M 08/31/20 | Introduction and Overview                |
 |      |  2   | W 09/02/20 | Development logistics -- Workflow: Unix, OCaml, Dune, Atom and VSCode, git & GitHub |
 |      |  3   | F 09/04/20 | Base types; literals & expressions; simplification & work; values |
-|  2  |      | M 09/07/20 | **Labor Day, No Meeting** |
+|  [2](https://github.com/BC-CSCI1103/Week02)  |      | M 09/07/20 | **Labor Day, No Meeting** |
 |      |  4   | W 09/09/20 | Symbolic Names: `let` and `let-in`; functions, libraries, function definitions and calls; replacement; explicit types or implicit types with type inference |
 |      |  5   | F 09/11/20 | More on function definitions; tuples; polymorphism |
 | 3 |  6   | M 09/14/20 | Branching & sum types; match expressions; the `bool` type |
