@@ -45,6 +45,8 @@ We'll come back to the discussion of the course workflow after we've set up the 
 
    the `rm:~\>` part at the bottom is the bash prompt. 
 
+   <details><summary>Type `echo $SHELL`. If you see `/bin/bash`, press on. If you don't see `/bin/bash` open this item.</summary>
+
    > **Heads up!** If your Terminal app is configured to run the **zsh** instead of **bash**, then you'll need to make an adjustment to cause it to run bash instead. If you aren't sure which one is running, type
    >
    > ```bash
@@ -56,6 +58,8 @@ We'll come back to the discussion of the course workflow after we've set up the 
    > Unlock the lock (lower left, requires password) then control-click on your entry and select *Advanced Options*. Use the dropdown menu to select */bin/bash*. Select *Ok* then re-lock the *Users & Groups* panel.
 
    > Heads up! In the bash commands below, we'll omit the prompt to simplify cutting and pasting.
+
+   </details>
 
 2. Most operating systems use a tree-structured hierarchy of *directories* (aka *folders*) for organizing resources. Each user is assigned a *home directory* where they can organize their files and subdirectories. When a user is interacting with the operating system via a command shell, In addition to a home directory, the user will also have a *current working directory*.
 
