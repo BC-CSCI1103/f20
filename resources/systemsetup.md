@@ -53,36 +53,36 @@ We'll come back to the discussion of the course workflow after we've set up the 
    
    </details>
    
-2. Most operating systems use a tree-structured hierarchy of *directories* (aka *folders*) for organizing resources. Each user is assigned a *home directory* where they can organize their files and subdirectories. When a user is interacting with the operating system via a command shell, In addition to a home directory, the user will also have a *current working directory*.
+2. Most operating systems use a tree-structured hierarchy of *directories* (aka *folders*) for organizing resources. Directories and files can be addressed using *file paths*, sequences of directory names separated by the `/` character. For example, the path `/usr/local/bin/` addresses one of the directories that Unix uses for executable programs (aka, *binaries*).
 
-   Type `cd` and then hit the `return` key.
+   If you want to see what's in a given directory you can use the *list* command `ls path`. For example, the command
 
+   ```bash
+   ls /usr/local/
+   ```
+
+   shows
+
+   ```bash
+   Frameworks/	bin/		include/	n/		          share/
+   Library/	  etc/		lib/		  opt/		        texlive/
+algs4/		  go/		  libexec/	remotedesktop/	var/
+   ```
+
+   Each user is assigned a *home directory* where they can organize their files and subdirectories. My home directory is located via the path`/Users/muller`. When a user is interacting with the operating system via a command shell, In addition to a home directory, the user will also have a *working directory*. The working directory will often change as commands are issued in the shell. We can see the current working directory using the *print working directory* command `pwd`:
+   
+   ```bash
+pwd
+   ```
+
+   In a fresh shell, this will show something like `/Users/muller` confirming that the working directory is initially set to the home directory. The *change directory* command `cd`,  when typed with just these two letters, will reset your working directory to the home directory.
+   
    ```bash
    cd
    ```
+   
 
-   This is the *change directory* command. Typed in this simple way with just the two letters, it assigns the home directory as the current working directory. We can see the current working directory using the *print working directory* command `pwd`:
-
-   ```bash
-   pwd
-   ```
-
-   The `pwd` command displays a *file path* `/Users/muller` confirming that the current working directory is the (i.e., my) home directory. If you want to see what's in the current working directory you can use the *list* command `ls`:
-
-   ```bash
-   ls 
-   ```
-
-   The list command will show the files in the current working directory. In my case, this would be the list of files:
-
-   ```bash
-   Applications/	Downloads/	Music/		Sites/		bin/		github/		teaching/
-   Desktop/	Google Drive/	Pictures/	Web/		cartoons/	lib/		test/
-   Developer/	Library/	Portal/		admin/		docs/		personal/	tmp/
-   Documents/	Movies/		Public/		attic/		forms/		research/
-   ```
-
-   The *make directory* command, `mkdir`, introduces a new directory within the current working directory. Let's make a work area for the materials developed in this class. (We'll informally refer to this new directory as the *course home directory*.)
+   The *make directory* command `mkdir` makes a new directory in the current working directory. Let's make a work area for the materials developed in this class. We'll informally refer to this new directory as the *course home directory*.
 
    ```bash
    cd
@@ -95,13 +95,13 @@ We'll come back to the discussion of the course workflow after we've set up the 
    cd
    cd csci1103
    ```
-   
-   Or equivalently you could do this in one line:
-   
+
+   Or equivalently in one line:
+
    ```bash
    cd ~/csci1103
    ```
-   
+
    The tilde character `~` designates your home directory.
 
 ### Setting up the OCaml Ecosystem
@@ -110,11 +110,10 @@ We'll come back to the discussion of the course workflow after we've set up the 
 
 2. Now use the Unix `git` command to retrieve some setup tools from our course site on GitHub. 
 
-   >  Heads up! The best way to issue these commands accurately is to copy the line and paste it into your command shell.
-
    ```bash
    git clone https://github.com/BC-CSCI1103/setup.git
    ```
+
 
 3. Install [MacPorts](https://www.macports.org/install.php), a utility for managing software packages on Macs.
 
@@ -129,7 +128,7 @@ We'll come back to the discussion of the course workflow after we've set up the 
    ```bash
    sudo port install opam lablgtk2 tree
    ```
-   
+
 5. Initialize `opam`.
 
    ```bash
@@ -138,61 +137,50 @@ We'll come back to the discussion of the course workflow after we've set up the 
 
    > Heads up! Best to copy and paste the following command -- the two quotation marks are *backquotes* (upper left, below the `esc` key). This won't work if you type the normal single-quote marks.
 
-   <details><summary>Trouble Shooting</summary>
-     If this didn't work ...
-   </details>
-
-   
-
    ```bash
    eval `opam config env`
    ```
 
 6. The installation script for OCaml's package manager `opam`, also installs the other main parts of the OCaml system. Fire up the OCaml interpreter to confirm that it's working.
-
    ```bash
    ocaml
    ```
-
    You should see something like:
-
    ```ocaml
    OCaml version 4.8
    # 
    ```
-   
-
-It's fine if you have OCaml 4.11 instead. You can type in expressions as you like, ending them with two consecutive semi-colons `;;`.  Type `Ctrl-d` (i.e., hold down the `Control` key and while still holding it, type the `d` key) to exit the REPL.
+   It's fine if you have OCaml 4.11 instead. You can type in expressions as you like, ending them with two consecutive semi-colons `;;`. Type `Ctrl-d` (i.e., hold down the `Control` key and while still holding it, type the `d` key) to exit the REPL.
 
 7. Install various OCaml packages. This is taken care of for you in a `configure` script. Type exactly or cut and paste:
-
    ```bash
    cd ~/csci1103/setup
    ./configure
    ```
-   
+
 8. Install the [XQuartz](https://www.xquartz.org/) X-Window server.
 
 9. Reboot your computer.
 
 10. Test your OCaml setup. Type or cut and paste:
-
   ```bash
   cd ~/csci1103/setup/test/stopNgo/src
   dune exec bin/main.exe
   ```
+
+   <details><summary>If you see a simple animation, try hitting the touchpad a few times to start and stop. If you don't see the animation, open this detail.</summary>
+
   
+   > Something is wrong. Try copying and pasting the following two lines into the command shell:
+   >
+   > ```bash
+   > echo "eval $(opam env)" >> ~/.bash_profile
+   > source ~/.bash_profile
+   > ```
+   >
+   > Now try the `dune exec` command again. If it still doesn't work, contact a course staffer. 
 
-If you see a simple animation, try hitting the touchpad a few times to start and stop.
-
-> If you don't see the animation, something is wrong. Try copying and pasting the following two lines into the command shell:
->
-> ```bash
-> echo "eval $(opam env)" >> ~/.bash_profile
-> source ~/.bash_profile
-> ```
->
-> Now try the `dune exec` command again. If it still doesn't work, contact a course staffer. 
+</details>
 
 ### Setting up the Atom Editor
 
@@ -207,13 +195,16 @@ The last step is setting up the code editor.
    **If you don't see the Atom icon in your Applications folder, drag it there.** Also consider dragging the icon to your task bar.  Now fire up Atom by double-clicking the icon, then, under the **Atom** menu item, select **Install Shell Commands**. Exit Atom.
 
 2. **Configure** Atom is an "extensible" editor. This means that it has processes in place for people to write and install *packages* of code that tailor the editor for particular applications. Executing the following command will install a number of packages that tailor Atom for OCaml. Type
-
    ```bash
    which apm
    ```
-   This should return something like `/usr/local/bin/apm`. 
 
-   > If it doesn't, it means that Atom didn't install the `apm` and `atom` shell commands for you. You may have failed to move Atom to the `Applications` folder. If so, try again. Then open Atom then under the *Atom* menu item select *Install Shell Commands*. Then exit Atom.
+   <details><summary>This should return something like <tt>/usr/local/bin/apm</tt>.  If it doesn't, open this item.</summary>
+
+   
+> If it doesn't, it means that Atom didn't install the `apm` and `atom` shell commands for you. You may have failed to move Atom to the `Applications` folder. If so, try again. Then open Atom then under the *Atom* menu item select *Install Shell Commands*. Then exit Atom.
+
+</details>
 
    Now type
 
@@ -223,7 +214,6 @@ The last step is setting up the code editor.
    ```
 
 3. **Test** Now we can test whether or not your editor settings are working. Move to the testing area and fire up the Atom editor from the unix command shell by typing:
-
    ```bash
    cd ~/csci1103/setup/test/
    atom .
@@ -237,12 +227,10 @@ The last step is setting up the code editor.
    ![helloAtom](./img/helloAtom.png)
 
    The tab labeled `main.ml` is displaying OCaml code. This code can be executed by using OCaml's *build manager* `dune`. In the Unix command shell, type
-
    ```bash
    cd ~/csci1103/setup/test/hello/src
    dune exec bin/main.exe
    ```
-
    > Heads up! The bit on the last line must say `bin/main.exe` even though the `bin` folder has a file named `main.ml`.
 
    Introduce an error in this code by deleting the quotation mark at the end of line 8. You should see
@@ -282,11 +270,9 @@ The basic idea is to make use of the Windows Subsystem for Linux (WSL) and Micro
 3. **Enable WSL** Open Windows PowerShell as Administrator. To do that, select *Start*, type "PowerShell" then right-click on *Windows PowerShell* (it should be at the top as the best match), and select *Run as administrator*. Select *Yes* to allow changes. At the prompt (which is probably something like `PS C:\windows\system32>`), enter the following command. 
 
    > If you're careful you can type in all of the commands in this Setup guide but cutting and pasting is generally more reliable.
-
    ```bash
    Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
    ```
-
    If you're prompted to restart, do so. Otherwise, close PowerShell.
 
 4. **Install Ubuntu 20.4** Select *Start*, type "Microsoft Store", and open the *Microsoft Store* app. Click *Search*, and type "Ubuntu". Scroll down to Apps, and choose **Ubuntu 20.04 LTS**. From the Ubuntu page. Select *Get*. After the download finishes, click *Launch*. The install will then finish.
@@ -298,7 +284,6 @@ The basic idea is to make use of the Windows Subsystem for Linux (WSL) and Micro
    > Heads up! You'll need to remember your Unix username and password for future use.
 
    You're now interacting with the Unix operating systems using a terminal application running the Bash shell. The prompt will look something like
-
    ```bash
    user@machine:~$
    ```
@@ -310,28 +295,23 @@ The basic idea is to make use of the Windows Subsystem for Linux (WSL) and Micro
    > + If you don’t see the *Use Ctrl+Shift+C/V as Copy/Paste* option, your Windows build is too old. Make sure you updated Windows to a new enough build, as described above. Right-click might still work to paste even if you don’t have a new enough build.
 
 5. **Update Ubuntu** [About 4 mintes] Software is generally deployed in *packages* and most systems have tools for managing packages. One of the more widely used package managers in the Unix environment is the *advanced packaging tool* `apt`. Enter the following command into the shell:
-
    ```bash
    sudo apt update
    ```
-
    You'll be prompted for the UNIX password you chose earlier. The command `apt update` updates the list of packages managed by `apt` on your system. The prefix `sudo` tells Unix to run the  `apt udate` command as the *system administrator*, aka *super user*.
 
    > Heads up!  Running Unix commands with `sudo` is potentially dangerous and should't be done lightly. Do not get into the habit of putting `sudo` in front of commands.
 
    Now run the `apt upgrade` command to actually upgrade all the `apt` software packages; this took about 3 minutes on my system. If you're prompted about configuring libssl, just hit Enter to accept the default choices.
-
    ```bash
    sudo apt ungrade -y
    ```
-
 6. **Install a few other Unix Packages** [About 7 minutes] Several of the OCaml tools that we'll be using rely on lower-level operating system tools and packages. Install these as follows. Generally speaking, you should respond affirmatively when prompted.
-
    ```bash
    sudo apt install m4 pkg-config libcairo2-dev libgnomecanvas2-dev tree unzip
    ```
 
-At this point, you can run a “bare-bones” Ubuntu Unix terminal as an application within your WSL system. It's worth noting that as of this writing, WSL doesn't install any support for graphics of any kind including the graphical user interfaces (GUIs) that you're accustomed to. 
+   At this point, you can run a “bare-bones” Ubuntu Unix terminal as an application within your WSL system. It's worth noting that as of this writing, WSL doesn't install any support for graphics of any kind including the graphical user interfaces (GUIs) that you're accustomed to. 
 
 ### 2. Set up your Work Area
 
