@@ -131,10 +131,9 @@ We'll come back to the discussion of the course workflow after we've set up the 
    > Heads up! The MacPorts app is invoked from the Unix command line as `port`. Also, you'll have to use `sudo` as shown, this will require you to enter your password.
 
    ```bash
-   sudo port install opam
-   sudo port install lablgtk2
+   sudo port install opam lablgtk2 tree
    ```
-
+   
 5. Initialize `opam`.
 
    ```bash
@@ -142,6 +141,12 @@ We'll come back to the discussion of the course workflow after we've set up the 
    ```
 
    > Heads up! Best to copy and paste the following command -- the two quotation marks are *backquotes* (upper left, below the `esc` key). This won't work if you type the normal single-quote marks.
+
+   <details><summary>Trouble Shooting</summary>
+     If this didn't work ...
+   </details>
+
+   
 
    ```bash
    eval `opam config env`
