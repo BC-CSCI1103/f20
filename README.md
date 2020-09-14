@@ -8,7 +8,7 @@ Robert Muller — Boston College
 
 [About](resources/about.md) — [Textbooks](resources/textbooks.md) — [Grading](resources/grading.md) — [Canvas](https://bostoncollege.instructure.com/courses/1614229) — [Piazza](https://piazza.com/class/ke7uxpkwqw643p) — [Cornell CS3110](https://www.cs.cornell.edu/courses/cs3110/2020sp/)
 
-[Manual](http://caml.inria.fr/pub/docs/manual-ocaml/index.html) — [OCaml.org](https://ocaml.org/) — [Stdlib](http://caml.inria.fr/pub/docs/manual-ocaml/stdlib.html) — [Lib](resources/libraries/lib.mli) — [Animate](resources/libraries/animate.mli) — [Image](resources/libraries/image.mli) — [Color](resources/libraries/color.mli) — [Animate Notes](./resources/libraries/animate/README.md)
+[Manual](http://caml.inria.fr/pub/docs/manual-ocaml/index.html) — [OCaml.org](https://ocaml.org/) — [Stdlib](http://caml.inria.fr/pub/docs/manual-ocaml/libref/Stdlib.html) — [Lib](resources/libraries/lib.mli) — [Animate](resources/libraries/animate.mli) — [Image](resources/libraries/image.mli) — [Color](resources/libraries/color.mli) — [Animate Notes](./resources/libraries/animate/README.md)
 
 [Lecture Meetings](https://bccte.zoom.us/j/3306891980) — [Lab Meetings](./resources/labs.md)
 
@@ -90,7 +90,7 @@ Robert Muller — Boston College
 |  [2](https://github.com/BC-CSCI1103/Week02)  |      | M 09/07/20 | **Labor Day, No Meeting** |
 |      |  4   | W 09/09/20 | Symbolic Names: `let` and `let-in`; functions, libraries, function definitions and calls; replacement; explicit types or implicit types with type inference |
 |      |  5   | F 09/11/20 | More on function definitions; tuples; polymorphism |
-| 3 |  6   | M 09/14/20 | Branching & sum types; match expressions; the `bool` type |
+| [3](https://github.com/BC-CSCI1103/Week03) |  6   | M 09/14/20 | Branching & sum types; match expressions; the `bool` type |
 |      |  7   | W 09/16/20 | Lists; repetition & recursive list processing, `List.mem` & `List.append` |
 |      |  8   | F 09/18/20 | learning from `List.rev`; computational shapes; local functions |
 | 4 |  9   | M 09/21/20 | More on working with lists |
