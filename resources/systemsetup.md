@@ -70,11 +70,9 @@ We'll come back to the discussion of the course workflow after we've set up the 
    ```
 
    Each user is assigned a *home directory* where they can organize their files and subdirectories. My home directory is located via the path`/Users/muller`. When a user is interacting with the operating system via a command shell, In addition to a home directory, the user will also have a *working directory*. The working directory will often change as commands are issued in the shell. We can see the current working directory using the *print working directory* command `pwd`:
-
    ```bash
-pwd
+   pwd
    ```
-
    In a fresh shell, this will show something like `/Users/muller` confirming that the working directory is initially set to the home directory. The *change directory* command `cd`,  when typed with just these two letters, will reset your working directory to the home directory.
 
    The *make directory* command `mkdir` makes a new directory in the current working directory. Let's make a work area for the materials developed in this class. We'll informally refer to this new directory as the *course home directory*.
