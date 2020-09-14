@@ -204,6 +204,7 @@ The last step is setting up the code editor.
    If you didn't see <tt>/usr/local/bin/apm</tt>, it means that Atom didn't install the `apm` and `atom` shell commands for you. You may have failed to move Atom to the `Applications` folder. If so, try again. Then open Atom then under the *Atom* menu item select <b>Install Shell Commands</b>. Then exit Atom.
 </details>
    
+
    Now type
    
    ```bash
