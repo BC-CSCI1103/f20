@@ -203,26 +203,25 @@ The last step is setting up the code editor.
    
    If you didn't see <tt>/usr/local/bin/apm</tt>, it means that Atom didn't install the `apm` and `atom` shell commands for you. You may have failed to move Atom to the `Applications` folder. If so, try again. Then open Atom then under the *Atom* menu item select <b>Install Shell Commands</b>. Then exit Atom.
 </details>
-
+   
    Now type
-
+   
    ```bash
    cd ~/csci1103/setup
    ./configureAtom
    ```
-
 3. **Test** Now we can test whether or not your editor settings are working. Move to the testing area and fire up the Atom editor from the unix command shell by typing:
+
    ```bash
    cd ~/csci1103/setup/test/
    atom .
    ```
-   You should see Atom's welcome page with three or four tabs, `Project`, `Welcome` and `Welcome Guide`. (There may also be one related to "Telemetry".)
 
-   ![atomwelcome](./img/AtomOpen.png)
+   You should see Atom's welcome page with three or four tabs, `Project`, `Welcome` and `Welcome Guide`. (There may also be one related to "Telemetry".)   ![atomwelcome](./img/AtomOpen.png)
 
    Dismiss all but the `Project` tab by X-ing them out (upper right). Now open the `hello` directory, then `src` then `bin` then select `main.ml`. You should see this
 
-   ![helloAtom](./img/helloAtom.png)
+![helloAtom](./img/helloAtom.png)
 
    The tab labeled `main.ml` is displaying OCaml code. This code can be executed by using OCaml's *build manager* `dune`. In the Unix command shell, type
    ```bash
