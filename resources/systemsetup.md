@@ -156,7 +156,7 @@ We'll come back to the discussion of the course workflow after we've set up the 
 9. Reboot your computer.
 
 10. Test your OCaml setup. Type or cut and paste:
-   ```bash
+    ```bash
    cd ~/csci1103/setup/test/stopNgo/src
    dune exec bin/main.exe
    ```
