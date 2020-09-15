@@ -38,7 +38,7 @@ Lab meetings are an especially important part of CSCI 1103. Students will work o
 | :--: | :----------------------------------------------------------- |
 |  1   | [System Setup](./systemsetup.md)                             |
 |  2   | [Working with Unix](https://classroom.github.com/a/jjP8Ubsf) |
-|  3   | More Unix, Working with git and Github                       |
+|  3   | [More Unix, Working with git and Github](https://classroom.github.com/a/nu4nsABq) |
 |  4   | The Animate Graphics Library                                 |
 |  5   | Working with Lists                                           |
 |  6   | Working with Trees                                           |
