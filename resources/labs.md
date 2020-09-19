@@ -46,7 +46,7 @@ Lab meetings are an especially important part of CSCI 1103. Students will work o
 |  8   | Numeral Systems & Storage                                    |
 |  9   | The Simple Virtual Machine                                   |
 |  10  | Working with Digital Audio                                   |
-|  11  | Working with Digiral Images                                  |
+|  11  | Working with Digital Images                                  |
 |  12  | Working with Strings, Text & Files                           |
 
 
