@@ -10,11 +10,11 @@
 *)
 val start :
   ?name:string ->
-  ?width:int ->
-  ?height:int ->
+  ?width:float ->
+  ?height:float ->
   ?view:('a -> Image.t) ->
   ?onTick:('a -> 'a) ->
-  ?onMouse:('a -> int -> int -> string -> 'a) ->
+  ?onMouse:('a -> float -> float -> string -> 'a) ->
   ?onKeyPress:('a -> string -> 'a) ->
   ?onKeyRelease:('a -> string -> 'a) ->
   ?rate:float ->

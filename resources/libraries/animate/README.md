@@ -9,7 +9,7 @@
 OCaml's Standard Library is excellent but quite small as libraries go. So in CSCI 1103, we'll be using a non-standard library supporting simple graphics and animation. The library, called `Animate` is a simplified version of the
 [Universe](http://www.is.ocha.ac.jp/~asai/Universe/en/), which was developed by Kenichi Asai and Chihiro Uehara. (And the Universe library was based on a similar library for the programming language Racket.)
 
-This document gives a very brief overview of how the Animate library works. The library contains 3 main parts (modules): 1. `Animate`, 2. `Image` and 3. `Color`. 
+This document gives a very brief overview of how the Animate library works. The library contains 3 main parts (modules): 1. `Animate`, 2. `Image` and 3. `Color`.
 
 ### Color
 
@@ -34,12 +34,12 @@ The integer values specifying the red, green, blue and alpha range between 0 and
 
 ### Images and the Graphics Display
 
- In this section we'll focus on graphical images. The graphics system used in the library is based on a 2D plane with x-coordinates running from left to right and y-coordinates running from top to bottom. So (0, 0) are the coordinates of the point at the upper left and (width, height) is the point at the lower right. 
+ In this section we'll focus on graphical images. The graphics system used in the library is based on a 2D plane with x-coordinates running from left to right and y-coordinates running from top to bottom. So (0, 0) are the coordinates of the point at the upper left and (width, height) is the point at the lower right.
 
 The [Image](../image.mli) module contains functions that produce basic images: lines, circles, rectangles and polygons. For example, the illustration labelled *Circle* below was created as follows:
 
 ```ocaml
-let radius = 300
+let radius = 300.
 let circle = Image.circle radius Color.dodgerBlue
 ```
 
@@ -48,7 +48,7 @@ Notice that the `Image.circle` function accepts a radius and a color as argument
 Images are built-up compositionally: given an image A and an image B, we can obtain a new image C by placing B on A. In the image *Square placed on Circle*, we've placed an image of a rectangle (in particular, a square) on top of a circle. Where is it placed? Each image can be though of as being drawn on a rectangular plane. The upper left corner of that plane (sometimes called the "pinhole") governs the placement of the image on some other image. *Square placed on Circle* was produced as follows:
 
 ```ocaml
-let radius = 300
+let radius = 300.
 let circle = Image.circle radius Color.dodgerBlue
 
 let square = Image.rectangle radius radius Color.limeGreen
@@ -61,35 +61,35 @@ Notice that the `Image` module has a composing function `placeImage`, such that 
 Image.placeImage topImage (x, y) bottomImage
 ```
 
-yields a new image that has `topImage` placed with it's pinhole at position `(x, y)` on `bottomImage`. 
+yields a new image that has `topImage` placed with it's pinhole at position `(x, y)` on `bottomImage`.
 
 | <img src="../img/image0.jpeg" width="200px" /> | <img src="../img/image1.jpeg" width="200px" /> | <img src="../img/image2.jpeg" width="200px" /> |
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
-|                  Circle                  | Square placed on Circle at (radius, radius) | Line [(radius, 0)] placed at (radius, radius) |
+|                  Circle                  | Square placed on Circle at (radius, radius) | Line [(radius, 0.)] placed at (radius, radius) |
 | <img src="../img/image3.jpeg" width="200px" /> | <img src="../img/image4.jpeg" width="200px" /> | <img src="../img/image5.jpeg" width="200px" /> |
-| Line [(radius, 0); (0, - radius)] at (radius, radius) |       Same Line placed at (0, 0)       |         Square with alpha = 200          |
+| Line [(radius, 0.); (0., -. radius)] at (radius, radius) |       Same Line placed at (0., 0.)       |         Square with alpha = 200          |
 
 Lines are a little tricky at first. A line is multi-segmented and is specified as a list of xy-displacements. For example,
 
 ```ocaml
-let radius = 300
+let radius = 300.
 let circle = Image.circle radius Color.dodgerBlue
 
-let line = Image.line [(radius, 0)] ~size:20 Color.limeGreen
+let line = Image.line [(radius, 0.)] ~size:20. Color.limeGreen
 let image = Image.placeImage line (radius, radius) circle
 ```
 
 makes an image of a horizontal line of width 20 pixels and length `radius` and places it on the circle at point`(radius, radius)`.
 
-The pairs of numbers in the argument list are not specifications of points but rather displacements: `(radius, 0)` means: this segment is obtained by traveling from the present point to the point `radius` units to the right and `0` units down. 
+The pairs of numbers in the argument list are not specifications of points but rather displacements: `(radius, 0)` means: this segment is obtained by traveling from the present point to the point `radius` units to the right and `0` units down.
 
 The image on the lower left of the 6 illustrations was created as follows:
 
 ```ocaml
-let radius = 300
+let radius = 300.
 let circle = Image.circle radius Color.dodgerBlue
 
-let line = Image.line [(radius, 0); (0, - radius)] ~size:20 Color.limeGreen
+let line = Image.line [(radius, 0.); (0., -. radius)] ~size:20. Color.limeGreen
 let image = Image.placeImage line (radius, radius) circle
 ```
 
@@ -100,7 +100,7 @@ The illustration *Same Line placed ...* above is, as the caption indicates, the 
 Finally, the illustration *Square with alpha …* shows the placement of a partially translucent green square on top of the blue circle. It was created as follows:
 
 ```ocaml
-let radius = 300
+let radius = 300.
 let circle = Image.circle radius Color.dodgerBlue
 
 let (r, g, b) = Color.to_rgb Color.limeGreen          (* find the red, green, blue in limeGreen *)
@@ -137,19 +137,19 @@ In the general Elm architecture, all of the different types of events are thread
 update : Msg Model -> Model
 ```
 
-And the `update` function uses the `Msg` to sort out which kind of event occurred and how to map the input model to the output model. 
+And the `update` function uses the `Msg` to sort out which kind of event occurred and how to map the input model to the output model.
 
 In the Animate library, the `Animate.start` function handles the three types of events mentioned above (i.e., clock ticks, touchpad actions and key-strokes) separately. A typical application might look like this:
 
 ```ocaml
 Animate.start initialModel
   ~name: "My App"
-  ~width: 500
-  ~height: 500
+  ~width: 500.
+  ~height: 500.
   ~view: view
   ~rate: 0.02
   ~onTick: clockUpdate
-  ~onMouse: mouseUpdate                 (* ('a -> int -> int -> string -> ('a, 'c) t) *)
+  ~onMouse: mouseUpdate                 (* ('a -> float -> float -> string -> ('a, 'c) t) *)
   ~onKeyPress: keyPressUpdate          (* ('a -> string -> ('a, 'd) t) *)
   ~onKeyRelease: keyReleaseUpdate      (* ('a -> string -> ('a, 'd) t) *)
   ~stopWhen: finished
@@ -167,7 +167,7 @@ The `Animate.start` function has one required input and several optional inputs.
 - The `initialModel` is the starter value of type `model`. This value is threaded through the `Animate.start` loop;
 - The `view` function `view : model -> Image.t` is called each time through the loop, it produces an image that the `start` function displays;
 - The `rate` is the clock rate, here set to `0.02` two one-hundredths of a second;
-- The `onTick` function `clockUpdate : model -> model` is the update function specifically for clock-tick events, it is called each time through the loop; 
+- The `onTick` function `clockUpdate : model -> model` is the update function specifically for clock-tick events, it is called each time through the loop;
 
 - The touchpad/mouse function `mouseUpdate : model -> x -> y -> event -> model` is called whenever an event occurs on the touchpad/mouse. The `mouseUpdate` function accepts a model, the (x, y) coordinates of the touchpad/mouse event and a string representing the kind of event. From these inputs it produces a new model. There are only two touchpad/mouse events:
   - "button_down"
@@ -191,4 +191,3 @@ let start model ~view:view ~onTick:update ~stopWhen:finished ~viewLast:viewLast 
   in
   loop model
 ```
-
