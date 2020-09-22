@@ -63,10 +63,10 @@ Image.placeImage topImage (x, y) bottomImage
 
 yields a new image that has `topImage` placed with it's pinhole at position `(x, y)` on `bottomImage`.
 
-| <img src="../img/image0.jpeg" width="200px" /> | <img src="../img/image1.jpeg" width="200px" /> | <img src="../img/image2.jpeg" width="200px" /> |
+| <img src="./img/image0.jpeg" width="200px" /> | <img src="./img/image1.jpeg" width="200px" /> | <img src="./img/image2.jpeg" width="200px" /> |
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 |                  Circle                  | Square placed on Circle at (radius, radius) | Line [(radius, 0.)] placed at (radius, radius) |
-| <img src="../img/image3.jpeg" width="200px" /> | <img src="../img/image4.jpeg" width="200px" /> | <img src="../img/image5.jpeg" width="200px" /> |
+| <img src="./img/image3.jpeg" width="200px" /> | <img src="./img/image4.jpeg" width="200px" /> | <img src="./img/image5.jpeg" width="200px" /> |
 | Line [(radius, 0.); (0., -. radius)] at (radius, radius) |       Same Line placed at (0., 0.)       |         Square with alpha = 200          |
 
 Lines are a little tricky at first. A line is multi-segmented and is specified as a list of xy-displacements. For example,
