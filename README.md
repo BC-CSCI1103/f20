@@ -93,7 +93,7 @@ Robert Muller — Boston College
 | [3](https://github.com/BC-CSCI1103/Week03) |  6   | M 09/14/20 | Branching & sum types; match expressions; the `bool` type |
 |      |  7   | W 09/16/20 | Lists; repetition & recursive list processing, `List.mem` & `List.append` |
 |      |  8   | F 09/18/20 | learning from `List.rev`; computational shapes; local functions |
-| 4 |  9   | M 09/21/20 | More on working with lists |
+| [4](https://github.com/BC-CSCI1103/Week04) |  9   | M 09/21/20 | More on working with lists |
 |      |  10  | W 09/23/20 | Recursion & Mathematical Induction; `addToAll`, `sublists` |
 |      |  11  | F 09/25/20 | Record types, the `'a option` type |
 | 5 |  12  | M 09/28/20 | The Animation library; Working with images; repetitive images, stripes |
