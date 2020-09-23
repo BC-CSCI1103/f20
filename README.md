@@ -94,9 +94,9 @@ Robert Muller — Boston College
 |      |  7   | W 09/16/20 | Lists; repetition & recursive list processing, `List.mem` & `List.append` |
 |      |  8   | F 09/18/20 | learning from `List.rev`; computational shapes; local functions |
 | [4](https://github.com/BC-CSCI1103/Week04) |  9   | M 09/21/20 | More on working with lists |
-|      |  10  | W 09/23/20 | Recursion & Mathematical Induction; `addToAll`, `sublists` |
+|      |  10  | W 09/23/20 | Repetitive images; the Animate library. |
 |      |  11  | F 09/25/20 | Record types, the `'a option` type |
-| 5 |  12  | M 09/28/20 | The Animation library; Working with images; repetitive images, stripes |
+| 5 |  12  | M 09/28/20 | Recursion & Mathematical Induction; `addToAll`, `sublists` |
 |      |  13  | W 09/30/20 | Animation: Elm's model-view-update architecture |
 |      |  14  | F 10/02/20 | The Best Candidate Algorithm |
 | 6 |  15  | M 10/05/20 | Numerical algorithms, primality, the Sieve of Eratosthenes, Fibonacci numbers |
