@@ -96,9 +96,9 @@ Robert Muller — Boston College
 | [4](https://github.com/BC-CSCI1103/Week04) |  9   | M 09/21/20 | More on working with lists |
 |      |  10  | W 09/23/20 | Repetitive images; the Animate library. |
 |      |  11  | F 09/25/20 | Record types, the `'a option` type |
-| 5 |  12  | M 09/28/20 | Recursion & Mathematical Induction; `addToAll`, `sublists` |
-|      |  13  | W 09/30/20 | Animation: Elm's model-view-update architecture |
-|      |  14  | F 10/02/20 | The Best Candidate Algorithm |
+| 5 |  12  | M 09/28/20 | Animation: Elm's model-view-update architecture |
+|      |  13  | W 09/30/20 | The Best Candidate Algorithm |
+|      |  14  | F 10/02/20 | Recursion & Mathematical Induction; `addToAll`, `sublists` |
 | 6 |  15  | M 10/05/20 | Numerical algorithms, primality, the Sieve of Eratosthenes, Fibonacci numbers |
 |      |  16  | W 10/07/20 | Numerical algorithms: Approximating the square root |
 |      |  17  | F 10/09/20 | Functions are values: `List.map`, `List.for_all` and `List.exists`. |
