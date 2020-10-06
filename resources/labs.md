@@ -39,10 +39,10 @@ Lab meetings are an especially important part of CSCI 1103. Students will work o
 |  1   | [System Setup](./systemsetup.md)                             |
 |  2   | [Working with Unix](https://classroom.github.com/a/jjP8Ubsf) |
 |  3   | [More Unix, Working with git and Github](https://classroom.github.com/a/nu4nsABq) |
-|  4   | [Working with Lists](https://classroom.github.com/a/bK2eDIs9)|
+|  4   | [Working with Lists](https://classroom.github.com/a/bK2eDIs9) |
 |  5   | [Roll the Dice](https://classroom.github.com/a/ksuP9RuV)     |
-|  6   | Working with Trees                                           |
-|  7   | Τhe Model-View-Update Pattern                                |
+|  6   | [Making Change & the Sieve of Eratosthenes](https://classroom.github.com/a/-r-ADwFf) |
+|  7   | Working with Trees                                           |
 |  8   | Numeral Systems & Storage                                    |
 |  9   | The Simple Virtual Machine                                   |
 |  10  | Working with Digital Audio                                   |
