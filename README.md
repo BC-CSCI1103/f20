@@ -94,16 +94,16 @@ Robert Muller — Boston College
 |      |  7   | W 09/16/20 | Lists; repetition & recursive list processing, `List.mem` & `List.append` |
 |      |  8   | F 09/18/20 | learning from `List.rev`; computational shapes; local functions |
 | [4](https://github.com/BC-CSCI1103/Week04) |  9   | M 09/21/20 | More on working with lists |
-|      |  10  | W 09/23/20 | Repetitive images; the Animate library. |
-|      |  11  | F 09/25/20 | Record types, the `'a option` type |
-| 5 |  12  | M 09/28/20 | Animation: Elm's model-view-update architecture |
-|      |  13  | W 09/30/20 | The Best Candidate Algorithm |
-|      |  14  | F 10/02/20 | Recursion & Mathematical Induction; `addToAll`, `sublists` |
+|      |  10  | W 09/23/20 | Repetitive images; the Animate library & the Model-View-Update pattern |
+|      |  11  | F 09/25/20 | Record Types |
+| 5 |  12  | M 09/28/20 | PS4: The Best Candidate Algorithm; More repetitive algorithms: Insertion Sort |
+|      |  13  | W 09/30/20 | Primality & factoring; List.map |
+|      |  14  | F 10/02/20 | Numerical algorithms: The Bisection Algorithm for Approximating the Square Root |
 | 6 |  15  | M 10/05/20 | Numerical algorithms, primality, the Sieve of Eratosthenes, Fibonacci numbers |
-|      |  16  | W 10/07/20 | Numerical algorithms: Approximating the square root |
+|      |  16  | W 10/07/20 | Recursion & Mathematical Induction; `addToAll`, `sublists` |
 |      |  17  | F 10/09/20 | Functions are values: `List.map`, `List.for_all` and `List.exists`. |
 | 7 |  18  | M 10/12/20 | **Columbus Day, this class meets on Tuesday!** More on function values: function slope, Riemann sums |
-|      |  19  | W 10/14/20 | Modules: implementing a dictionary |
+|      |  19  | W 10/14/20 | Modules: implementing a dictionary; the `'a option` type |
 |      |  20  | F 10/16/20 | binary search trees, performance measurement |
 | 8 |      | M 10/19/20 | Sorting algorithms |
 |      |  21  | W 10/21/20 | Sorting algorithms |
