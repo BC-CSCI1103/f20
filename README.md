@@ -96,14 +96,14 @@ Robert Muller — Boston College
 | [4](https://github.com/BC-CSCI1103/Week04) |  9   | M 09/21/20 | More on working with lists |
 |      |  10  | W 09/23/20 | Repetitive images; the Animate library & the Model-View-Update pattern |
 |      |  11  | F 09/25/20 | Record Types |
-| [5](https://github.com/BC-CSCI1103/Week05) |  12  | M 09/28/20 | PS4: The Best Candidate Algorithm; More repetitive algorithms: Insertion Sort |
-|      |  13  | W 09/30/20 | Primality & factoring; List.map |
+| [5](https://github.com/BC-CSCI1103/Week05) |  12  | M 09/28/20 | PS4: The Best Candidate Algorithm; The List.map function; More repetitive algorithms: Insertion Sort |
+|      |  13  | W 09/30/20 | Primality & factoring; Applications of the third built-in Sum Type: `'a option` |
 |      |  14  | F 10/02/20 | Numerical algorithms: The Bisection Algorithm for Approximating the Square Root |
-| 6 |  15  | M 10/05/20 | Recursion & Mathematical Induction; `addToAll`, `sublists` |
+| 6 |  15  | M 10/05/20 | Some cairns on the path to good code; Recursion & Mathematical Induction --- learning from`sublists` |
 |      |  16  | W 10/07/20 | Functions are values: `List.map`, `List.for_all` and `List.exists`. |
 |      |  17  | F 10/09/20 | More on function values: function slope, Riemann sums |
 | 7 |  18  | M 10/12/20 | **Columbus Day, this class meets on Tuesday!** |
-|      |  19  | W 10/14/20 | Modules: implementing a dictionary; the `'a option` type |
+|      |  19  | W 10/14/20 | Modules: implementing a dictionary; |
 |      |  20  | F 10/16/20 | binary search trees, performance measurement |
 | 8 |      | M 10/19/20 | Sorting algorithms |
 |      |  21  | W 10/21/20 | Sorting algorithms |
