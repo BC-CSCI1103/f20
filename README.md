@@ -99,7 +99,7 @@ Robert Muller — Boston College
 | [5](https://github.com/BC-CSCI1103/Week05) |  12  | M 09/28/20 | PS4: The Best Candidate Algorithm; The List.map function; More repetitive algorithms: Insertion Sort |
 |      |  13  | W 09/30/20 | Primality & factoring; Applications of the third built-in Sum Type: `'a option` |
 |      |  14  | F 10/02/20 | Numerical algorithms: The Bisection Algorithm for Approximating the Square Root |
-| 6 |  15  | M 10/05/20 | Some cairns on the path to good code; Recursion & Mathematical Induction --- learning from`sublists` |
+| [6](https://github.com/BC-CSCI1103/Week06) |  15  | M 10/05/20 | Some cairns on the path to good code; Recursion & Mathematical Induction --- learning from`sublists` |
 |      |  16  | W 10/07/20 | Functions are values: `List.map`, `List.for_all` and `List.exists`. |
 |      |  17  | F 10/09/20 | More on function values: function slope, Riemann sums |
 | 7 |  18  | M 10/12/20 | **Columbus Day, this class meets on Tuesday!** |
