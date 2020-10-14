@@ -68,13 +68,13 @@ Robert Muller — Boston College
 4. Repetition
 5. Repetition
 6. Animation; Model-View-Update
-7. Algorithms
-8. Digital Representations
-9. Machines
-10. Storage
-11. Applications in Imperative Style: Digital Audio
-12. Applications in Imperative Style: Pictures
-13. Applications of Strings, Text & Files
+7. Digital Representations
+8. Machines
+9. Storage
+10. Applications in Imperative Style: Digital Audio
+11. Applications in Imperative Style: Digital Images
+12. Applications of Strings, Text & Files
+13. Sorting Algorithms
 14. Developing new Types, Review & Wrap-up
 
 </details>
@@ -102,33 +102,43 @@ Robert Muller — Boston College
 | [6](https://github.com/BC-CSCI1103/Week06) |  15  | M 10/05/20 | Some cairns on the path to good code; Recursion & Mathematical Induction --- learning from`sublists` |
 |      |  16  | W 10/07/20 | Functions are values: `List.map`, `List.for_all` and `List.exists`. |
 |      |  17  | F 10/09/20 | More on function values: function slope, Riemann sums |
-| 7 |  18  | M 10/12/20 | **Columbus Day, this class meets on Tuesday!** |
-|      |  19  | W 10/14/20 | Modules: implementing a dictionary; |
-|      |  20  | F 10/16/20 | binary search trees, performance measurement |
-| 8 |      | M 10/19/20 | Sorting algorithms |
-|      |  21  | W 10/21/20 | Sorting algorithms |
-|      |  22  | F 10/23/20 | Symbols and Digital Representations; Positional Numeral Systems |
-| 9 |  23  | M 10/26/20 | Binary & Hexadecimal; logic gates; a ripple-carry adder; |
-|      |  24  | W 10/28/20 | Machines & Storage Architecture, Bits, Bytes & Words |
-|      |  25  | F 10/30/20 | SVM — A Simple Virtual Machine |
-|  10  |  26  | M 11/02/20 | Assembly coding |
-|      |  27  | W 11/04/20 | Assembly coding: linked vs sequential allocation |
-|      |  28  | F 11/06/20 | Storage Architecture |
-|  11  |  29  | M 11/09/20 | Storage diagrams & the storage model of evaluation |
-|      |  30  | W 11/11/20 | Storage diagrams |
-|      |  31  | F 11/13/20 | Imperative programming: sequence forms; mutable references; block-storage; `fresh` |
-|  12  |  32  | M 11/16/20 | Working with Audio       |
-|                                            |      | W 11/18/20 | Working with Audio |
-|      |  34  | F 11/20/20 | Working with pictures |
-|  13  |  35  | M 11/23/20 | Working with pictures |
+| [7](https://github.com/BC-CSCI1103/Week07) |  18  | M 10/12/20 | **Columbus Day, this class meets on Tuesday!** Symbols and Digital Representations;      Positional Numeral Systems |
+|      |  19  | W 10/14/20 | More on Numeral Systems; Binary & Hexadecimal |
+|      |  20  | F 10/16/20 | Logic Gates; a Ripple-Carry Adder |
+| 8 |      | M 10/19/20 | Machines & Storage Architecture, Bits, Bytes & Words |
+|      |  21  | W 10/21/20 | SVM — A Simple Virtual Machine |
+|      |  22  | F 10/23/20 | Assembly Coding |
+| 9 |  23  | M 10/26/20 | Assembly coding: block & linked allocation |
+|      |  24  | W 10/28/20 | Dynamic Memory: Storage Diagrams & the Storage Model of Evaluation |
+|      |  25  | F 10/30/20 | More on Dynamic Memory & Storage Diagrams |
+|  10  |  26  | M 11/02/20 | Imperative programming: sequence forms; mutable references; |
+|      |  27  | W 11/04/20 | `for`-loops & `while`-loops |
+|      |  28  | F 11/06/20 | `for`-loops & `while`-loops |
+|  11  |  29  | M 11/09/20 | Applications of Block-Allocation: Pulse-Code Modulation & Digital Audio |
+|      |  30  | W 11/11/20 | Working with Digital Audio |
+|      |  31  | F 11/13/20 | Working with Digital Audio |
+|  12  |  32  | M 11/16/20 | Applications of Block-Allocation: Working with Digital Images |
+|                                            |      | W 11/18/20 | Working with Digital Images |
+|      |  34  | F 11/20/20 | Search problems: mazes, eight queens, the knights tour |
+|  13  |  35  | M 11/23/20 | Working with strings & text files |
 |      |  36  | W 11/25/20 | **Thanksgiving: No Meeting** |
 |      |  37  | F 11/27/20 | **Thanksgiving: No Meeting** |
-|  14  |  38  | M 11/30/20 | Search problems: mazes, eight queens, the knights tour |
-|      |      | W 12/02/20 | Search problems: mazes, eight queens, the knights tour |
-|      |      | F 12/04/20 | Working with strings & text files |
-|  15  |  39  | M 12/07/20 | Working with strings & text files, applications in bioinformatics |
+|  14  |  38  | M 11/30/20 | Working with FASTA Files |
+|      |      | W 12/02/20 | Working with strings & text files, applications in bioinformatics |
+|      |      | F 12/04/20 | Modules, Signatures and ADTs: Implementing a simple Dictionary |
+|  15  |  39  | M 12/07/20 | binary search trees, performance measurement |
 |      |  40  | W 12/09/20 | Last Meeting, review and wrap-up |
 |      |  41  | F 12/11/20 | **Study Period** |
 
 </details>
+
+
+
+
+
+Sorting algorithms
+
+Sorting algorithms
+
+
 
