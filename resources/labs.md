@@ -42,9 +42,9 @@ Lab meetings are an especially important part of CSCI 1103. Students will work o
 |  4   | [Working with Lists](https://classroom.github.com/a/bK2eDIs9) |
 |  5   | [Roll the Dice](https://classroom.github.com/a/ksuP9RuV)     |
 |  6   | [Making Change & the Sieve of Eratosthenes](https://classroom.github.com/a/-r-ADwFf) |
-|  7   | Working with Trees                                           |
-|  8   | Numeral Systems & Storage                                    |
-|  9   | The Simple Virtual Machine                                   |
+|  7   | [Numeral Systems & SVM](https://classroom.github.com/a/q5w-SxCG) |
+|  8   | SVM                                                          |
+|  9   | Storage Diagrams                                             |
 |  10  | Working with Digital Audio                                   |
 |  11  | Working with Digital Images                                  |
 |  12  | Working with Strings, Text & Files                           |
