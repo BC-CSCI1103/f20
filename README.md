@@ -107,26 +107,26 @@ Robert Muller — Boston College
 |      |  20  | F 10/16/20 | Logic Gates; a Ripple-Carry Adder |
 | 8 |      | M 10/19/20 | Machines & Storage Architecture, Bits, Bytes & Words |
 |      |  21  | W 10/21/20 | SVM — A Simple Virtual Machine |
-|      |  22  | F 10/23/20 | Assembly Coding |
-| 9 |  23  | M 10/26/20 | Assembly coding: block & linked allocation |
-|      |  24  | W 10/28/20 | Dynamic Memory: Storage Diagrams & the Storage Model of Evaluation |
-|      |  25  | F 10/30/20 | More on Dynamic Memory & Storage Diagrams |
-|  10  |  26  | M 11/02/20 | Imperative programming: sequence forms; mutable references; |
-|      |  27  | W 11/04/20 | `for`-loops & `while`-loops |
-|      |  28  | F 11/06/20 | `for`-loops & `while`-loops |
-|  11  |  29  | M 11/09/20 | Applications of Block-Allocation: Pulse-Code Modulation & Digital Audio |
-|      |  30  | W 11/11/20 | Working with Digital Audio |
-|      |  31  | F 11/13/20 | Working with Digital Audio |
-|  12  |  32  | M 11/16/20 | Applications of Block-Allocation: Working with Digital Images |
-|                                            |      | W 11/18/20 | Working with Digital Images |
-|      |  34  | F 11/20/20 | Search problems: mazes, eight queens, the knights tour |
-|  13  |  35  | M 11/23/20 | Working with strings & text files |
+|      |  22  | F 10/23/20 | Working with Memory: LOD & STO |
+| 9 |  23  | M 10/26/20 | Dynamic Memory Diagrams |
+|      |  24  | W 10/28/20 | Imperative Forms in OCaml |
+|      |  25  | F 10/30/20 | PCM & Digital Audio |
+|  10  |  26  | M 11/02/20 | Digital Audio |
+|      |  27  | W 11/04/20 | Digital Audio |
+|      |  28  | F 11/06/20 | Digital Images |
+|  11  |  29  | M 11/09/20 | Digital Images |
+|      |  30  | W 11/11/20 | Working with Files; Exceptions |
+|      |  31  | F 11/13/20 | Working with strings & text files |
+|  12  |  32  | M 11/16/20 | Applications in Bioinformatics: Working with FASTA Files |
+|                                            |      | W 11/18/20 | Dictionaries: A-lists |
+|      |  34  | F 11/20/20 | Dictionaries: Binary Search Trees |
+|  13  |  35  | M 11/23/20 | More on Trees |
 |      |  36  | W 11/25/20 | **Thanksgiving: No Meeting** |
 |      |  37  | F 11/27/20 | **Thanksgiving: No Meeting** |
-|  14  |  38  | M 11/30/20 | Working with FASTA Files |
-|      |      | W 12/02/20 | Working with strings & text files, applications in bioinformatics |
-|      |      | F 12/04/20 | Modules, Signatures and ADTs: Implementing a simple Dictionary |
-|  15  |  39  | M 12/07/20 | binary search trees, performance measurement |
+|  14  |  38  | M 11/30/20 | Search: Solving the 8-Queens Problem |
+|      |      | W 12/02/20 | Sudoku |
+|      |      | F 12/04/20 | Sudoku & Complexity |
+|  15  |  39  | M 12/07/20 | Abstract Data Types in OCaml & Java |
 |      |  40  | W 12/09/20 | Last Meeting, review and wrap-up |
 |      |  41  | F 12/11/20 | **Study Period** |
 
