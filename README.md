@@ -105,10 +105,10 @@ Robert Muller — Boston College
 | [7](https://github.com/BC-CSCI1103/Week07) |  18  | M 10/12/20 | **Columbus Day, this class meets on Tuesday!** Symbols and Digital Representations;      Positional Numeral Systems |
 |      |  19  | W 10/14/20 | More on Numeral Systems; Binary & Hexadecimal |
 |      |  20  | F 10/16/20 | Logic Gates; a Ripple-Carry Adder |
-| 8 |      | M 10/19/20 | Machines & Storage Architecture, Bits, Bytes & Words |
+| [8](https://github.com/BC-CSCI1103/Week08)    |      | M 10/19/20 | Machines & Storage Architecture, Bits, Bytes & Words |
 |      |  21  | W 10/21/20 | SVM — A Simple Virtual Machine |
 |      |  22  | F 10/23/20 | Working with Memory: LOD & STO |
-| 9 |  23  | M 10/26/20 | Arrays in High-level Programming; Dynamic Memory Diagrams |
+| 9    |  23  | M 10/26/20 | Dynamic Memory Diagrams; Arrays |
 |      |  24  | W 10/28/20 | Imperative Forms in OCaml |
 |      |  25  | F 10/30/20 | PCM & Digital Audio |
 |  10  |  26  | M 11/02/20 | Digital Audio |
