@@ -43,7 +43,7 @@ Lab meetings are an especially important part of CSCI 1103. Students will work o
 |  5   | [Roll the Dice](https://classroom.github.com/a/ksuP9RuV)     |
 |  6   | [Making Change & the Sieve of Eratosthenes](https://classroom.github.com/a/-r-ADwFf) |
 |  7   | [Numeral Systems & SVM](https://classroom.github.com/a/q5w-SxCG) |
-|  8   | SVM                                                          |
+|  8   | [Working with One Dimensional Arrays](https://classroom.github.com/a/qxRnObZa) |
 |  9   | Storage Diagrams                                             |
 |  10  | Working with Digital Audio                                   |
 |  11  | Working with Digital Images                                  |
