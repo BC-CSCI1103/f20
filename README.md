@@ -111,7 +111,7 @@ Robert Muller — Boston College
 | [9](https://github.com/BC-CSCI1103/Week09)    |  23  | M 10/26/20 | Dynamic Memory Diagrams; Arrays |
 |      |  24  | W 10/28/20 | Imperative Forms in OCaml |
 |      |  25  | F 10/30/20 | PCM & Digital Audio |
-|  10  |  26  | M 11/02/20 | Digital Audio |
+|  [10](https://github.com/BC-CSCI1103/Week10)  |  26  | M 11/02/20 | Digital Audio |
 |      |  27  | W 11/04/20 | Digital Audio |
 |      |  28  | F 11/06/20 | Digital Images |
 |  11  |  29  | M 11/09/20 | Digital Images |
