@@ -114,18 +114,18 @@ Robert Muller — Boston College
 |  [10](https://github.com/BC-CSCI1103/Week10)  |  26  | M 11/02/20 | Digital Audio |
 |      |  27  | W 11/04/20 | Digital Audio |
 |      |  28  | F 11/06/20 | Digital Images |
-|  11  |  29  | M 11/09/20 | Digital Images |
-|      |  30  | W 11/11/20 | Working with Files; Exceptions |
-|      |  31  | F 11/13/20 | Working with strings & text files |
-|  12  |  32  | M 11/16/20 | Applications in Bioinformatics: Working with FASTA Files |
-|                                            |      | W 11/18/20 | Dictionaries: A-lists |
-|      |  34  | F 11/20/20 | Dictionaries: Binary Search Trees |
-|  13  |  35  | M 11/23/20 | More on Trees |
+|  11  |  29  | M 11/09/20 | Digital Images & Zooming; Search, 8-Queens, Complexity |
+|      |  30  | W 11/11/20 | Review of Storage Diagrams; Dictionaries |
+|      |  31  | F 11/13/20 | Dictionaries, Binary Search Trees |
+|  12  |  32  | M 11/16/20 | More on Dictionaries & BSTs; Balanced BSTs; Performance |
+|                                            |      | W 11/18/20 | Applications in Bioinformatics: Working with FASTA Files |
+|      |  34  | F 11/20/20 | Bioinformatics: Working with FASTA Files |
+|  13  |  35  | M 11/23/20 | Bioinformatics: Sequence Similarity |
 |      |  36  | W 11/25/20 | **Thanksgiving: No Meeting** |
 |      |  37  | F 11/27/20 | **Thanksgiving: No Meeting** |
-|  14  |  38  | M 11/30/20 | Search: Solving the 8-Queens Problem |
-|      |      | W 12/02/20 | Sudoku |
-|      |      | F 12/04/20 | Sudoku & Complexity |
+|  14  |  38  | M 11/30/20 | Bioinformatics: Sequence Similarity |
+|      |      | W 12/02/20 | Abstract Data Types |
+|      |      | F 12/04/20 | Complexity |
 |  15  |  39  | M 12/07/20 | Abstract Data Types in OCaml & Java |
 |      |  40  | W 12/09/20 | Last Meeting, review and wrap-up |
 |      |  41  | F 12/11/20 | **Study Period** |
