@@ -105,24 +105,24 @@ Robert Muller — Boston College
 | [7](https://github.com/BC-CSCI1103/Week07) |  18  | M 10/12/20 | **Columbus Day, this class meets on Tuesday!** Symbols and Digital Representations;      Positional Numeral Systems |
 |      |  19  | W 10/14/20 | More on Numeral Systems; Binary & Hexadecimal |
 |      |  20  | F 10/16/20 | Logic Gates; a Ripple-Carry Adder |
-| [8](https://github.com/BC-CSCI1103/Week08)    |      | M 10/19/20 | Machines & Storage Architecture, Bits, Bytes & Words |
-|      |  21  | W 10/21/20 | SVM — A Simple Virtual Machine |
-|      |  22  | F 10/23/20 | Working with Memory: LOD & STO |
-| [9](https://github.com/BC-CSCI1103/Week09)    |  23  | M 10/26/20 | Dynamic Memory Diagrams; Arrays |
-|      |  24  | W 10/28/20 | Imperative Forms in OCaml |
-|      |  25  | F 10/30/20 | PCM & Digital Audio |
-|  [10](https://github.com/BC-CSCI1103/Week10)  |  26  | M 11/02/20 | Digital Audio |
-|      |  27  | W 11/04/20 | Digital Audio |
-|      |  28  | F 11/06/20 | Digital Images |
-|  11  |  29  | M 11/09/20 | Digital Images & Zooming; Search, 8-Queens, Complexity |
-|      |  30  | W 11/11/20 | Review of Storage Diagrams; Dictionaries |
-|      |  31  | F 11/13/20 | Dictionaries, Binary Search Trees |
-|  12  |  32  | M 11/16/20 | More on Dictionaries & BSTs; Balanced BSTs; Performance |
-|                                            |      | W 11/18/20 | Applications in Bioinformatics: Working with FASTA Files |
-|      |  34  | F 11/20/20 | Working with Text: The Shannon/Markov Model |
-|  13  |  35  | M 11/23/20 | Working with Text: DNA Sequence Alignment |
-|      |  36  | W 11/25/20 | **Thanksgiving: No Meeting** |
-|      |  37  | F 11/27/20 | **Thanksgiving: No Meeting** |
+| [8](https://github.com/BC-CSCI1103/Week08)    |  21 | M 10/19/20 | Machines & Storage Architecture, Bits, Bytes & Words |
+|      |  22  | W 10/21/20 | SVM — A Simple Virtual Macahine |
+|      |  23  | F 10/23/20 | Working with Memory: LOD & STO |
+| [9](https://github.com/BC-CSCI1103/Week09)    |  24  | M 10/26/20 | Dynamic Memory Diagrams; Arrays |
+|      |  25  | W 10/28/20 | Imperative Forms in OCaml |
+|      |  26  | F 10/30/20 | PCM & Digital Audio |
+|  [10](https://github.com/BC-CSCI1103/Week10)  |  27  | M 11/02/20 | Digital Audio |
+|      |  28  | W 11/04/20 | Digital Audio |
+|      |  29  | F 11/06/20 | Digital Images |
+|  [11](https://github.com/BC-CSCI1103/Week11)  |  30  | M 11/09/20 | Digital Images & Zooming; Search, 8-Queens, Complexity |
+|      |  31  | W 11/11/20 | Review of Storage Diagrams; Dictionaries |
+|      |  32  | F 11/13/20 | Dictionaries, Binary Search Trees |
+|  [12](https://github.com/BC-CSCI1103/Week12)  |  33  | M 11/16/20 | More on Dictionaries & BSTs; Balanced BSTs; Performance | |
+|      |  34  | W 11/18/20 | Applications in Bioinformatics: Working with FASTA Files |
+|      |  35  | F 11/20/20 | Working with Text: The Shannon/Markov Model |
+|  [13](https://github.com/BC-CSCI1103/Week13)  |  36  | M 11/23/20 | Working with Text: DNA Sequence Alignment |
+|      |      | W 11/25/20 | **Thanksgiving: No Meeting** |
+|      |      | F 11/27/20 | **Thanksgiving: No Meeting** |
 |  14  |  38  | M 11/30/20 | Abstract Data Types |
 |      |      | W 12/02/20 | Abstract Data Types in OCaml & Java |
 |      |      | F 12/04/20 | Abstract Data Types in OCaml & Java |
