@@ -119,14 +119,14 @@ Robert Muller — Boston College
 |      |  31  | F 11/13/20 | Dictionaries, Binary Search Trees |
 |  12  |  32  | M 11/16/20 | More on Dictionaries & BSTs; Balanced BSTs; Performance |
 |                                            |      | W 11/18/20 | Applications in Bioinformatics: Working with FASTA Files |
-|      |  34  | F 11/20/20 | Bioinformatics: Working with FASTA Files |
-|  13  |  35  | M 11/23/20 | Bioinformatics: Sequence Similarity |
+|      |  34  | F 11/20/20 | Working with Text: The Shannon/Markov Model |
+|  13  |  35  | M 11/23/20 | Working with Text: DNA Sequence Alignment |
 |      |  36  | W 11/25/20 | **Thanksgiving: No Meeting** |
 |      |  37  | F 11/27/20 | **Thanksgiving: No Meeting** |
-|  14  |  38  | M 11/30/20 | Bioinformatics: Sequence Similarity |
-|      |      | W 12/02/20 | Abstract Data Types |
-|      |      | F 12/04/20 | Complexity |
-|  15  |  39  | M 12/07/20 | Abstract Data Types in OCaml & Java |
+|  14  |  38  | M 11/30/20 | Abstract Data Types |
+|      |      | W 12/02/20 | Abstract Data Types in OCaml & Java |
+|      |      | F 12/04/20 | Abstract Data Types in OCaml & Java |
+|  15  |  39  | M 12/07/20 | Complexity |
 |      |  40  | W 12/09/20 | Last Meeting, review and wrap-up |
 |      |  41  | F 12/11/20 | **Study Period** |
 
