@@ -44,7 +44,7 @@ Lab meetings are an especially important part of CSCI 1103. Students will work o
 |  6   | [Making Change & the Sieve of Eratosthenes]() | [Solution]() |
 |  7   | [Numeral Systems & SVM]() | [Solution]() |
 |  8   | [Working with One Dimensional Arrays](https://classroom.github.com/a/qxRnObZa) | [Solution]() |
-|  9   | [Working with Two-Dimensional Arrays](https://classroom.github.com/a/AtoTJwB5) | [Solution]() |
+|  9   | [Working with Two-Dimensional Arrays](https://classroom.github.com/a/AtoTJwB5) | [Solution](https://classroom.github.com/a/mR2nwq7n) |
 |  10  | [Parallel Array Implementation of Dictionaries]() | [Solution]() |
 |  11  | Project Workshop                                             | |
 
