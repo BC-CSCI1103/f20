@@ -123,10 +123,10 @@ Robert Muller — Boston College
 |  [13](https://github.com/BC-CSCI1103/Week13)  |  36  | M 11/23/20 | Working with Text: DNA Sequence Alignment |
 |      |      | W 11/25/20 | **Thanksgiving: No Meeting** |
 |      |      | F 11/27/20 | **Thanksgiving: No Meeting** |
-|  14  |  38  | M 11/30/20 | Abstract Data Types |
-|      |      | W 12/02/20 | Abstract Data Types in OCaml & Java |
-|      |      | F 12/04/20 | Abstract Data Types in OCaml & Java |
-|  15  |  39  | M 12/07/20 | Complexity |
+|  [14](https://github.com/BC-CSCI1103/Week14)  |  38  | M 11/30/20 | Data Integrity; Data Modeling |
+|      |      | W 12/02/20 | Message Passing Style; Object-Oriented Programming |
+|      |      | F 12/04/20 | Abstract Data Types in OCaml |
+|  15  |  39  | M 12/07/20 | Abstract Data Types in Java |
 |      |  40  | W 12/09/20 | Last Meeting, review and wrap-up |
 |      |  41  | F 12/11/20 | **Study Period** |
 
