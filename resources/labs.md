@@ -37,7 +37,7 @@ Lab meetings are an especially important part of CSCI 1103. Students will work o
 | Mtng | Topic | Solution |
 | :--: | :--- | :--: |
 |  1   | [System Setup](./systemsetup.md)                             |  |
-|  2   | [Working with Unix]() | [Solution]() |
+|  2   | [Working with Unix](https://classroom.github.com/a/jjP8Ubsf) | [Solution]() |
 |  3   | [More Unix, Working with git and Github]() | [Solution]() |
 |  4   | [Working with Lists]() | [Solution]() |
 |  5   | [Roll the Dice]()     | [Solution]() |
