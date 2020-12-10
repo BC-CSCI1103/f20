@@ -37,15 +37,15 @@ Lab meetings are an especially important part of CSCI 1103. Students will work o
 | Mtng | Topic | Solution |
 | :--: | :--- | :--: |
 |  1   | [System Setup](./systemsetup.md)                             |  |
-|  2   | [Working with Unix](https://classroom.github.com/a/jjP8Ubsf) | [Solution]() |
-|  3   | [More Unix, Working with git and Github]() | [Solution]() |
-|  4   | [Working with Lists]() | [Solution]() |
-|  5   | [Roll the Dice]()     | [Solution]() |
-|  6   | [Making Change & the Sieve of Eratosthenes]() | [Solution]() |
-|  7   | [Numeral Systems & SVM]() | [Solution]() |
-|  8   | [Working with One Dimensional Arrays](https://classroom.github.com/a/qxRnObZa) | [Solution]() |
-|  9   | [Working with Two-Dimensional Arrays](https://classroom.github.com/a/AtoTJwB5) | [Solution](https://classroom.github.com/a/mR2nwq7n) |
-|  10  | [Parallel Array Implementation of Dictionaries]() | [Solution]() |
+|  2   | [Working with Unix](https://classroom.github.com/a/n_tZkdja) | [Solution](https://classroom.github.com/a/hPyqi0Hg) |
+|  3   | [More Unix, Working with git and Github](https://classroom.github.com/a/dCQXGEGs) | [Solution](https://classroom.github.com/a/rGtMZ3GA) |
+|  4   | [Working with Lists](https://classroom.github.com/a/VbJyNhx-) | [Solution](https://classroom.github.com/a/gv-PibHh) |
+|  5   | [Roll the Dice](https://classroom.github.com/a/RdgF4vIr)     | [Solution](https://classroom.github.com/a/eJD5S86-) |
+|  6   | [Making Change & the Sieve of Eratosthenes](https://classroom.github.com/a/n_c9Er_R) | [Solution](https://classroom.github.com/a/gpRwjWXN) |
+|  7   | [Numeral Systems & SVM](https://classroom.github.com/a/Nn8FrKV_) | [Solution](https://classroom.github.com/a/yzzAneJw) |
+|  8   | [Working with One Dimensional Arrays](https://classroom.github.com/a/3q-T1hMW) | [Solution](https://classroom.github.com/a/6Q8vpGXf) |
+|  9   | [Working with Two-Dimensional Arrays](https://classroom.github.com/a/YNjDdzXJ) | [Solution](https://classroom.github.com/a/EKegUBgd) |
+|  10  | [Parallel Array Implementation of Dictionaries](https://classroom.github.com/a/qlsHj4Sk) | [Solution](https://classroom.github.com/a/7xtBCXbk) |
 |  11  | Project Workshop                                             | |
 
 
