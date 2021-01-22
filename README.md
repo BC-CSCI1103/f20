@@ -111,19 +111,19 @@ Robert Muller — Boston College
 | [9](https://github.com/BC-CSCI1103/Week09)    |  24  | M 10/26/20 | Dynamic Memory Diagrams; Arrays |
 |      |  25  | W 10/28/20 | Imperative Forms in OCaml |
 |      |  26  | F 10/30/20 | PCM & Digital Audio |
-|  [10](https://github.com/BC-CSCI1103/Week10)  |  27  | M 11/02/20 | Digital Audio |
+|  [10](https://github.com/BC-CSCI1103/Week10)  |  27  | M 11/02/20 | Working with Digital Audio |
 |      |  28  | W 11/04/20 | Working with 2D-Arrays; Bitmaps |
 |      |  29  | F 11/06/20 | Overview of PS8; Search: 8-Queens, Sudoku & Complexity |
 |  [11](https://github.com/BC-CSCI1103/Week11)  |  30  | M 11/09/20 | Backtracking in 8-Queens; More Digital Images: zooming |
-|      |  31  | W 11/11/20 | Review of Storage Diagrams; Dictionaries |
+|      |  31  | W 11/11/20 | Review of Storage Diagrams; Dictionaries: Associative Arrays, Association Lists |
 |      |  32  | F 11/13/20 | Dictionaries, Binary Search Trees |
 |  [12](https://github.com/BC-CSCI1103/Week12)  |  33  | M 11/16/20 | More on Dictionaries & BSTs; Balanced BSTs; Performance |
-|      |  34  | W 11/18/20 | Working with Text Strings |
-|      |  35  | F 11/20/20 | Working with Text: The Shannon's Markov Model of English Text |
-|  [13](https://github.com/BC-CSCI1103/Week13)  |  36  | M 11/23/20 | Working with Text: DNA Sequence Alignment |
+|      |  34  | W 11/18/20 | Working with Text Strings; The String Module |
+|      |  35  | F 11/20/20 | Working with Text: Shannon's Markov Model of English Text |
+|  [13](https://github.com/BC-CSCI1103/Week13)  |  36  | M 11/23/20 | Working with Text: The Needleman-Wunsch DNA Sequence Alignment Algorithm |
 |      |      | W 11/25/20 | **Thanksgiving: No Meeting** |
 |      |      | F 11/27/20 | **Thanksgiving: No Meeting** |
-|  [14](https://github.com/BC-CSCI1103/Week14)  |  38  | M 11/30/20 | Data Integrity; Data Modeling |
+|  [14](https://github.com/BC-CSCI1103/Week14)  |  38  | M 11/30/20 | Data Integrity; Exposing Data Constraints to the Type Checker |
 |      |      | W 12/02/20 | Message Passing Style; Object-Oriented Programming |
 |      |      | F 12/04/20 | Abstract Data Types in OCaml |
 |  15  |  39  | M 12/07/20 | Abstract Data Types in Java |
@@ -131,14 +131,6 @@ Robert Muller — Boston College
 |      |  41  | F 12/11/20 | **Study Period** |
 
 </details>
-
-
-
-
-
-Sorting algorithms
-
-Sorting algorithms
 
 
 
